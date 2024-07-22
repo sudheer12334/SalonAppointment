@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Agustina Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Agustina Regular'), url('./assets/fonts/Agustina.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
+  font-display: swap;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html
+{
+  scroll-behavior: smooth;
+  
+}
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color:  #171c28;
+  color:whitesmoke;
+  font-family: Avenir-Roman,sans-serif;
+  margin:0;
+  padding: 0;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+ */
+/* //Adding Mobile Responsiveness */
+@media only screen and ( min-width:768px)
+{
+body{
+font-size: 16px;
+}
+}
+
+@media only screen and ( min-width:480px) and (max-width:768px)
+{
+body{
+    font-size: 15px;
+}   
+}
+
+@media only screen and ( max-width:479px)
+{
+body{
+    font-size: 14px;
+}
+}
